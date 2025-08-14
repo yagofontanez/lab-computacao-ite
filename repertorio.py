@@ -167,9 +167,9 @@ while True:
         genero = input('Digite o gênero da música: ')
         ano = int(input('Digite o ano da música: '))
         duracao_segundos = int(input('Digite a duração da música em segundos: '))
-        compositor = input('Digite o compositor da música')
-        gravadora = input('Digite a gravadora da música')
-        caminho_arquivo = input('Digite o caminho do arquivo da música')
+        compositor = input('Digite o compositor da música: ')
+        gravadora = input('Digite a gravadora da música: ')
+        caminho_arquivo = input('Digite o caminho do arquivo da música: ')
 
         obj = {
             "titulo": titulo,
@@ -191,7 +191,7 @@ while True:
     elif choice == '4':
         id = int(input('Digite o ID da música a ser deletada: '))
         delete_music(id)
-        print('Usuário deletado com sucesso!')
+        print('Música deletada com sucesso!')
     elif choice == '5':
         print('Saindo do programa...')
         break
